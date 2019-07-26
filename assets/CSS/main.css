@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  color: #212931;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.wrapper > * {
+  margin-left: 6em;
+  margin-right: 6em;
+  flex: 1 100%;
+}
+
+nav {
+  display: flex;
+  background-color: #100e17;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  font-size: 17px;
+  color: antiquewhite;
+  padding: 1em;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #211e2e;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
