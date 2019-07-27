@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+@import url("gallery.css");
 
 * {
   margin: 0;
@@ -63,7 +64,11 @@ header {
 }
 
 .homepage header {
-  height: 35em;
+  height: 42em;
+}
+
+.homepage .wrapper {
+  height: 39em;
 }
 
 .text {
@@ -91,34 +96,35 @@ header {
   font-size: 0.9em;
 }
 
-nav {
+.navbar {
   position: fixed;
   display: block;
   top: 0;
   left: 0;
   width: 100%;
   text-align: center;
+  z-index: 1;
 }
 
-nav > ul {
+.navbar > ul {
   display: inline-block;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   padding: 0 1.5em 0 1.5em;
 }
 
-nav > ul > li {
+.navbar > ul > li {
   display: inline-block;
   text-align: center;
   padding: 0 1.5em 0 1.5em;
 }
 
-nav > ul > li > ul {
+.navbar > ul > li > ul {
   display: none;
 }
 
-nav > ul > li > a,
-nav > ul > li > span {
+.navbar > ul > li > a,
+.navbar > ul > li > span {
   display: block;
   color: #eee;
   color: rgba(255, 255, 255, 0.75);
@@ -134,4 +140,65 @@ nav > ul > li > span {
   -ms-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   outline: 0;
+}
+
+/* INTRO */
+
+#intro {
+  padding-bottom: 8em;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  padding: 6em 0 9em 0;
+}
+
+.wrapper .projects {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  font-size: 0.9em;
+  width: 25em;
+  height: 3.25em;
+  top: -3.25em;
+  line-height: 3.25em;
+  margin-bottom: -3.25em;
+  margin-left: -12.5em;
+  padding-top: 0.5em;
+}
+
+.wrapper .projects:before {
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: -35px;
+  width: 35px;
+  height: 38px;
+  background: url("images/shadow.png");
+}
+
+.wrapper .projects:after {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  right: -35px;
+  width: 35px;
+  height: 38px;
+  background: url("images/shadow.png");
+}
+
+.wrapper,
+.projects {
+  background: #fff url("images/overlay.png");
+  color: rgb(0, 0, 0);
 }
