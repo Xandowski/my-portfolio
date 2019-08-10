@@ -19,7 +19,7 @@
 }
 
 .dg-wrapper a.dg-transition {
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .dg-wrapper a img {
@@ -67,6 +67,9 @@
   opacity: 1;
 }
 
+.dg-container {
+  background: hsl(204, 40%, 40%);
+}
 .dg-container nav span.dg-next {
   background-position: top right;
   margin-left: 10px;

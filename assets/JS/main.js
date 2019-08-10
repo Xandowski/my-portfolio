@@ -1,3 +1,3 @@
 $(function() {
-  $("#dg-container").gallery();
+  $("#intro").gallery();
 });
