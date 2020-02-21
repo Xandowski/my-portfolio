@@ -1,152 +1,104 @@
 <!DOCTYPE html>
 <html lag="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/CSS/main.css" />
-  </head>
-  <body class="homepage">
-    <div class="page-wrapper">
-      <header>
-        <nav class="navbar">
-          <ul>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="#projetos">Projects</a>
-            </li>
-            <li>
-              <a href="#about">About Me</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="text middle" data-text="Alexandre Morais">
-          Alexandre Morais
-          <p>Desenvolvedor Web</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/CSS/main.css" />
+</head>
+
+<body>
+  <nav id="sidebar">
+    <ul class="nav-list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <ul class="media-list">
+      <li>
+        <a href="#instagram">Instagram</a>
+      </li>
+      <li>
+        <a href="#github">Github</a>
+      </li>
+      <li>
+        <a href="#twitter">Twitter</a>
+      </li>
+      <li>
+        <a href="#linkedin">Linkedin</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <header>
+      <h1>Alexandre Morais</h1>
+      <p>Web Developer</p>
+      <button>Learn More</button>
+    </header>
+
+    <section id="portfolio">
+      <h2>Some of my projects</h2>
+
+      <div class="cards">
+        <div>
+          <img src="" alt="">
+          <p>Description</p>
         </div>
-      </header>
-
-      <section id="intro" class="wrapper style1 dg-container">
-        <a name="projetos"></a>
-          <div class="title">Projects</div>
-        </a>
-          
-            <div class="dg-wrapper">
-              <a href="#"><img src="images/Eryze.jpg" alt="Eryze" />Ryze</a>
-              <a href="#"><img src="images/Eaatrox.jpg" width="Eaatrox"/></a>
-              <a href="#"><img src="images/Eshen.jpg" alt="Eshen"/></a>
-              <a href="#"><img src="images/Eswain.jpg" alt="Eswain"/></a>
-              <a href="#"><img src="images/Eyorick.jpg" alt="Eyorick"/></a>
-            </div>
-
-            <nav>
-              <span class="dg-prev">&lt;</span>
-              <span class="dg-next">&gt;</span>
-            </nav>
-
-            <a href="">
-              SEE MORE
-            </a>
-          
-        
-      </section>
-
-      <section id="aboutme" class="wrapper style2">
-        <div class="title">About Me</div>
-        <div class="aboutme">
-          <div class="about-text">
-            <p>
-              Malesuada quis eget eros. Nullam sodales cursus sapien, id
-              consequat leo suscipit ut. Praesent id turpis vitae turpis pretium
-              ultricies. Vestibulum sit amet risus elit. >Malesuada quis eget
-              eros. Nullam sodales cursus sapien, id consequat leo suscipit ut.
-              Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-              amet risus elit.>Malesuada quis eget eros. Nullam sodales cursus
-              sapien, id consequat leo suscipit ut. Praesent id turpis vitae
-              turpis pretium ultricies. Vestibulum sit amet risus elit
-            </p>
-          </div>
+        <div>
+          <img src="" alt="">
+          <p>Description</p>
         </div>
-      </section>
-
-      <section id="contact" class="wrapper style3">
-        <div class="title">Contact</div>
-        <div class="contact">
-          <div class="row">
-            <div class="col-6 col-12-medium">
-              <section>
-                <form method="post" action="#">
-                  <div class="row gtr-50">
-                    <div class="col-6 col-12-small">
-                      <input
-                        type="text"
-                        name="name"
-                        id="contact-name"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div class="col-6 col-12-small">
-                      <input
-                        type="text"
-                        name="email"
-                        id="contact-email"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div class="col-12">
-                      <textarea
-                        name="message"
-                        id="contact-message"
-                        placeholder="Message"
-                        rows="4"
-                      ></textarea>
-                    </div>
-                    <div class="col-12">
-                      <ul class="actions">
-                        <li>
-                          <input type="submit" class="style1" value="Send" />
-                        </li>
-                        <li>
-                          <input type="reset" class="style2" value="Reset" />
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </form>
-              </section>
-            </div>
-          </div>
-          <div id="copyright">
-            <ul>
-              <li>&copy; Todos os direitos reservados.</li>
-              <li>
-                <a href="https://github.com/Xandowski">Xandowski</a>
-              </li>
-            </ul>
-          </div>
+        <div>
+          <img src="" alt="">
+          <p>Description</p>
         </div>
-      </section>
-    </div>
+      </div>
 
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-3.4.0.js"
-    ></script>
-    <script type="text/javascript" src="assets/JS/jquery.gallery.js"></script>
-    <script
-      type="text/javascript"
-      src="assets/JS/modernizr.custom.53451.js"
-    ></script>
-    <script src="assets/JS/main.js"></script>
-  </body>
+      <button>Show all</button>
+    </section>
+
+    <section class="contact">
+      <h2>Get in touch</h2>
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Name">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Email">
+      </div>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+    </section>
+  </main>
+
+  <footer>All rights reserved.</footer>
+
+
+
+
+
+  <script src="assets/JS/main.js"></script>
+</body>
+
 </html>
+
+
+<!-- https://colorlib.com/preview/#jackson
+    https://html5up.net/big-picture
+    https://html5up.net/editorial
+    https://html5up.net/hyperspace -->
