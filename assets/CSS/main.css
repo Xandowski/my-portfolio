@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+nav {
+  height: 100vh;
+  width: 18em;
+  background: #312450;
+  position: fixed;
+}
+
+.wrapper {
+  position: relative;
+  left: 18em;
+}
+
+footer {
+  position: relative;
+  left: 18em;
+}
