@@ -6,40 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./assets/CSS/main.css" />
 </head>
 
 <body>
 
   <aside class="sidebar">
-    <nav>
+    <nav class="nav-bar">
+
       <ul class="nav-list">
-        <li>
-          <a href="#home">Home</a>
+        
+        <li class="nav-item">
+          <a class="link" href="#home">
+            <img class="profile-picture" src="assets/images/XDd.png" alt="">
+          </a>
         </li>
-        <li>
-          <a href="#about">Portfolio</a>
+
+        <li class="nav-item">
+          <a class="link" href="#about">Portfolio</a>
         </li>
-        <li>
-          <a href="#portfolio">About</a>
+
+        <li class="nav-item">
+          <a class="link" href="#portfolio">About</a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
+
+        <li class="nav-item">
+          <a class="link" href="#contact">Contact</a>
         </li>
+
       </ul>
 
-      <ul class="media-list">
-        <li>
-          <a href="#instagram">Instagram</a>
+      <ul class="social-medias">
+        <li class="media-item">
+          <a class="link" href="#github">Github</a>
         </li>
-        <li>
-          <a href="#github">Github</a>
+        <li class="media-item">
+          <a class="link" href="#twitter">Twitter</a>
         </li>
-        <li>
-          <a href="#twitter">Twitter</a>
-        </li>
-        <li>
-          <a href="#linkedin">Linkedin</a>
+        <li class="media-item">
+          <a class="link" href="#linkedin">Linkedin</a>
         </li>
       </ul>
     </nav>
@@ -87,9 +93,9 @@
       <label for="message">Message</label>
       <textarea name="message" id="" cols="30" rows="10"></textarea>
     </section>
+    <footer>All rights reserved.</footer>
   </div>
 
-  <footer>All rights reserved.</footer>
   <script src="assets/JS/main.js"></script>
 </body>
 

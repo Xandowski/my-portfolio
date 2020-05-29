@@ -1,0 +1,65 @@
+.sidebar{
+  width: 18em;
+  height: 100vh;
+  background-color: #312450;
+  position: fixed;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 2;
+  top: 0;
+  padding: 2.5em 2.5em 0.5em 2.5em;
+}
+
+.sidebar > .nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100%;
+  text-align: center;
+}
+
+.sidebar > .nav-bar > .nav-list > .nav-item > .link >.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sidebar > .nav-bar > .nav-list {
+  width: 100%;
+}
+
+.sidebar > .nav-bar > .nav-list > .nav-item > .link{
+  color: #ffffff;
+  max-width: 100%;
+  display: block;
+  font-size: 0.6em;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  line-height: 1.75;
+  outline: 0;
+  padding: 1.35em 0;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sidebar > .nav-bar > .nav-list > .nav-item > .link::before,
+.sidebar > .nav-bar > .nav-list > .nav-item > .link::after{
+  border-radius: 0.2em;
+  bottom: 0;
+  content: '';
+  height: 0.2em;
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+
+.sidebar > .nav-bar > .nav-list > .nav-item > .link::after {
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  transition: max-width 0.2s ease;
+}
+
+
+.sidebar > .nav-bar > .media-list {
+  display: flex;
+}

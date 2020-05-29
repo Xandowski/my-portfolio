@@ -1,21 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Base */
+@import '3-Base/basic.css';
 
-nav {
-  height: 100vh;
-  width: 18em;
-  background: #312450;
-  position: fixed;
-}
+/* Generic */
+@import '4-Generic/reset.css';
+
+/* Components */
+@import '1-Components/sidebar.css';
+@import '1-Components/social-medias.css';
+
 
 .wrapper {
   position: relative;
-  left: 18em;
-}
-
-footer {
-  position: relative;
-  left: 18em;
+  left: 23em;
+  width: calc(100% - 23em);
+  height: 100vh;
 }

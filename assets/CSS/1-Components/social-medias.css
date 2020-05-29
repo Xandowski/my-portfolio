@@ -1,0 +1,28 @@
+.social-medias {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+.social-medias > .media-item > .link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+}
+
+.social-medias > .media-item > .link[href="#github"]{
+  background-image: url(../../images/github.svg);
+  background-size: 100%;
+}
+
+.social-medias > .media-item > .link[href="#twitter"]{
+  background-image: url(../../images/twitter.svg);
+  background-size: 100%;
+}
+
+.social-medias > .media-item > .link[href="#linkedin"]{
+  background-image: url(../../images/linkedin.svg);
+  background-size: 100%;
+}

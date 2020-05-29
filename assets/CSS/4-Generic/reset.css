@@ -62,3 +62,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+a{
+  text-decoration: none;
+}
