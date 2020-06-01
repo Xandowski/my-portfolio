@@ -1,13 +1,22 @@
-/* Base */
-@import '3-Base/basic.css';
-
 /* Generic */
 @import '4-Generic/reset.css';
+
+/* Base */
+@import '3-Base/basic.css';
+@import '3-Base/titles.css';
 
 /* Components */
 @import '1-Components/sidebar.css';
 @import '1-Components/social-medias.css';
+@import '1-Components/title-name.css';
+@import '1-Components/home-content.css';
+@import '1-Components/vertical-line.css';
 
+body{
+  background-color: #1a122e;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .wrapper {
   position: relative;

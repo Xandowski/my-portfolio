@@ -1,0 +1,8 @@
+.vertical-line {
+  background-image: linear-gradient(to bottom, #5e42a6, #b74e91);
+  height: 80vh;
+  width: 4px;
+  position: absolute;
+  position: fixed;
+  top: 10vh;
+}

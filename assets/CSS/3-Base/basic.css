@@ -5,3 +5,7 @@ html, body{
 body{
   font-size: 17px;
 }
+
+section, main{
+  height: 100vh;
+}
