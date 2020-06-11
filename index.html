@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./assets/CSS/main.css" />
 </head>
 
-<body>
+<body onload="typeWritter(), showName()">
 
   <aside class="sidebar">
     <nav class="nav-bar">
@@ -19,16 +19,19 @@
         
         <li class="nav-item">
           <a class="link" href="#home">
-            <img class="profile-picture" src="assets/images/XDd.png" alt="">
+           <div class="picture-content">
+              <img class="profile-picture" src="assets/images/XDd.png" alt="">
+              <p class="text">Cursando Análise e Desenvolvimento De Sistemas, estudando Desenvolvimento Web</p>
+           </div>
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="link" href="#about">Portfolio</a>
+          <a class="link" href="#portfolio">Portfolio</a>
         </li>
 
         <li class="nav-item">
-          <a class="link" href="#portfolio">About</a>
+          <a class="link" href="#about">About</a>
         </li>
 
         <li class="nav-item">
@@ -52,11 +55,10 @@
   </aside>
 
   <div class="wrapper">
-    <div class="vertical-line"></div>
-    <section class="home-content">
-      <h1 class="title-name">Alexandre Morais</h1>
-      <p class="">Web Developer</p>
-      <!-- <button>Learn More</button> -->
+    <section class="home-content container">
+      <p class="typewritter"></p>
+      <h1 class="title"></h1>
+      <!-- <p class="">Web Developer</p> -->
     </section>
 
     <main id="portfolio">
@@ -80,7 +82,7 @@
       <button>Show all</button>
     </main>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <h2>Get in touch</h2>
 
       <div>
@@ -97,7 +99,7 @@
     <footer>All rights reserved.</footer>
   </div>
 
-  <script src="assets/JS/main.js"></script>
+  <script src="assets/js/index.js"></script>
 </body>
 
 </html>

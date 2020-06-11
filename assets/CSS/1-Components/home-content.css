@@ -1,3 +1,9 @@
-.home-content {
-  padding: 310px 0 0 80px;
+.home-content .title {
+  color: #eb1f48a8;
+  font-size: 46px;
+  font-family: Fira Code, monospace;
+}
+
+.home-content .typewritter{
+  font-family: Fira Code, monospace;
 }

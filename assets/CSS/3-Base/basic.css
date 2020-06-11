@@ -4,8 +4,12 @@ html, body{
 
 body{
   font-size: 17px;
+  color: white;
+  background-color: #272727;
+  font-family: 'Montserrat', sans-serif;
 }
 
-section, main{
+section, main, footer{
   height: 100vh;
+  width: 100%;
 }

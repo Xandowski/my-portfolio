@@ -5,22 +5,17 @@
 @import '3-Base/basic.css';
 @import '3-Base/titles.css';
 
+/* Obejcts */
+@import '2-Objects/container.css';
+
 /* Components */
 @import '1-Components/sidebar.css';
 @import '1-Components/social-medias.css';
 @import '1-Components/title-name.css';
 @import '1-Components/home-content.css';
 @import '1-Components/vertical-line.css';
+@import '1-Components/main-content.css';
+@import '1-Components/contact-content.css';
+@import '1-Components/profile-content.css';
+@import '1-Components/wrapper-content.css';
 
-body{
-  background-color: #1a122e;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.wrapper {
-  position: relative;
-  left: 23em;
-  width: calc(100% - 23em);
-  height: 100vh;
-}

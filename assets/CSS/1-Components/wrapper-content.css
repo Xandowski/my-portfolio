@@ -1,0 +1,7 @@
+.wrapper {
+  position: relative;
+  left: 23em;
+  width: calc(100vw - 23em);
+  height: 100vh;
+  overflow-x: hidden;
+}
