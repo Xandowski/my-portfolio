@@ -7,6 +7,7 @@
 
 /* Obejcts */
 @import '2-Objects/container.css';
+@import '2-Objects/cards.css';
 
 /* Components */
 @import '1-Components/sidebar.css';
@@ -18,4 +19,4 @@
 @import '1-Components/contact-content.css';
 @import '1-Components/profile-content.css';
 @import '1-Components/wrapper-content.css';
-
+@import '1-Components/cards-container.css';

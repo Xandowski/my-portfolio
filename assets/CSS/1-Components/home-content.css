@@ -1,5 +1,5 @@
-.home-content .title {
-  color: #eb1f48a8;
+.home-content > .title {
+  color: #e9cc65;
   font-size: 46px;
   font-family: Fira Code, monospace;
 }

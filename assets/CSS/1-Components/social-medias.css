@@ -26,3 +26,18 @@
   background-image: url(../../images/linkedin.svg);
   background-size: 100%;
 }
+
+.social-medias > .media-item > .link[href="#github"]:hover{
+  background-image: url(../../images/github-hover.svg);
+  background-size: 100%;
+}
+
+.social-medias > .media-item > .link[href="#twitter"]:hover{
+  background-image: url(../../images/twitter-hover.svg);
+  background-size: 100%;
+}
+
+.social-medias > .media-item > .link[href="#linkedin"]:hover{
+  background-image: url(../../images/linkedin-hover.svg);
+  background-size: 100%;
+}

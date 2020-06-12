@@ -25,7 +25,7 @@ li{
 }
 
 .sidebar > .nav-bar > .nav-list > .nav-item > .link{
-  color: white;
+  color: #e9cc65;
   max-width: 100%;
   display: block;
   font-size: 0.7em;
@@ -37,6 +37,9 @@ li{
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+}
+.sidebar > .nav-bar > .nav-list > .nav-item > .link:hover{
+  color: hsl(48, 93%, 59%, 0.8);
 }
 
 .sidebar > .nav-bar > .nav-list > .nav-item > .link::before,
