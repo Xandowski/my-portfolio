@@ -1,0 +1,18 @@
+.contact .contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content .input-name,
+.contact-content .input-email {
+  width: 250px;
+  border: none;
+  margin: 10px 0;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.contact .msg-content{
+  display: flex;
+  flex-direction: column;
+}
