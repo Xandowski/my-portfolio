@@ -1,11 +1,12 @@
 .contact .contact-content {
   display: flex;
+  width: 30%;
   flex-direction: column;
 }
 
 .contact-content .input-name,
 .contact-content .input-email {
-  width: 250px;
+  width: 50%;
   border: none;
   margin: 10px 0;
   height: 20px;
@@ -15,4 +16,25 @@
 .contact .msg-content{
   display: flex;
   flex-direction: column;
+}
+
+.msg,
+.label-msg {
+  margin-top: 10px;
+  border: none;
+}
+
+.label{
+  font-size: 14px;
+}
+
+.contact-content .input-name,
+.contact-content .input-email,
+.contact-content .msg {
+  background-color: transparent;
+  border-bottom: 1px solid #837552;
+}
+
+.contact-content .label{
+  color: #e9cc65
 }
