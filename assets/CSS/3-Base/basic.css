@@ -4,9 +4,7 @@ html, body{
 
 body{
   font-size: 17px;
-  color: white;
-  background-color: #272727;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
 section, main{

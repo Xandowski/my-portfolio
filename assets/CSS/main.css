@@ -1,3 +1,6 @@
+/* Settings */
+@import '5-Settings/colors.css';
+
 /* Generic */
 @import '4-Generic/reset.css';
 
@@ -20,3 +23,4 @@
 @import '1-Components/profile-content.css';
 @import '1-Components/wrapper-content.css';
 @import '1-Components/cards-container.css';
+@import '1-Components/footer.css';

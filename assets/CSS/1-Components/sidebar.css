@@ -25,7 +25,7 @@ li{
 }
 
 .sidebar > .nav-bar > .nav-list > .nav-item > .link{
-  color: #e9cc65;
+  color: var(--second-color);
   max-width: 100%;
   display: block;
   font-size: 0.7em;

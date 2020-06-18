@@ -1,9 +1,0 @@
-.vertical-line {
-  /* background-image: linear-gradient(to bottom, #5e42a6, #b74e91); */
-  background-color: #eb1f48a8;
-  height: 80vh;
-  width: 4px;
-  position: absolute;
-  position: fixed;
-  top: 10vh;
-}

@@ -13,6 +13,6 @@ function typeWritter(){
 
 function showName() {
   setTimeout(() => {
-    document.querySelector('.title').innerHTML = 'Alexandre Morais';
-  }, 2165);
+    document.querySelector('.title').style.opacity = "1";
+  }, 2168);
 }

@@ -1,7 +1,7 @@
 .picture-content{
   width: 210px;
   height: 300px;
-  background-color: #837552;/*  #3c72ddd5 */
+  background-color: var(--first-color);
   position: relative;
   color: #171916;
 }

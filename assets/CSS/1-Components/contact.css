@@ -32,9 +32,16 @@
 .contact-content .input-email,
 .contact-content .msg {
   background-color: transparent;
-  border-bottom: 1px solid #837552;
+  border-bottom: 1px solid var(--first-color);
+  caret-color: var(--first-color);
+}
+
+.contact-content .input-name:focus,
+.contact-content .input-email:focus,
+.contact-content .msg:focus{
+  border-bottom: 1px solid hsl(48, 93%, 59%, 0.8);
 }
 
 .contact-content .label{
-  color: #e9cc65
+  color: var(--second-color);
 }
